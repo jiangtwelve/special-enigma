@@ -1,15 +1,15 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import index from '@/components/index'
+import left from '@/components/left-menu.vue'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
-    {
-      path: '/',
-      name: 'index',
-      component: index
-    }
+    // {
+    //   path: '/',
+    //   name: 'left',
+    //   component: left
+    // }
   ]
 })
